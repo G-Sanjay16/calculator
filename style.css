@@ -1,0 +1,53 @@
+
+#title {
+    margin-top: 50px !important;
+   align-content: center !important;
+}
+div{
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    
+    padding: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    gap: px;
+    width:400px;
+    height:300px;
+    
+    
+    }
+ .calculator{
+ 
+    margin: 30%;
+    margin-top: 50px;
+    padding: 2px;
+    }
+.textbox{
+    width: 400px;
+    height:40px;
+    bottom: 0%;
+    grid-column-start: 1;
+grid-column-end: 5;
+    }
+
+.equal{
+    grid-column-start:3 ;
+    grid-column-end:5;
+}
+#clear{
+    color: red;
+}
+#add,#subtract,#division,#multiplication {
+    color: blue;
+}
+#equal{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#result{
+    column-width: 50%;
+    
+}
